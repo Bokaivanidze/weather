@@ -1,0 +1,16 @@
+.description {
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+    display: flex;
+}
+
+.daily {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    min-width: 15rem;
+    img {
+        width: 45px;
+        height: 45px;
+    }
+}
